@@ -9,3 +9,14 @@ C:\Users\poedx\source\repos\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.
 C:\Users\poedx\source\repos\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.csproj.CoreCompileInputs.cache
 C:\Users\poedx\source\repos\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.exe
 C:\Users\poedx\source\repos\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.pdb
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\bin\Debug\FizikHesapApp.exe.config
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\bin\Debug\FizikHesapApp.exe
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\bin\Debug\FizikHesapApp.pdb
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.csproj.AssemblyReference.cache
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.Form1.resources
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.Properties.Resources.resources
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.csproj.GenerateResource.cache
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.csproj.CoreCompileInputs.cache
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.exe
+C:\Users\poedx\OneDrive\Belgeler\GitHub\Fizik-Hesap-Makinesi\FizikHesapApp\FizikHesapApp\obj\Debug\FizikHesapApp.pdb

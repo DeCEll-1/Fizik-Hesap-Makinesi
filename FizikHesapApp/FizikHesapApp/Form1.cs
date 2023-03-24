@@ -131,6 +131,66 @@ namespace FizikHesapApp
             nud_Formul2.Enabled = true;
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            reset();
+            Formul = "P=F/A";
+            lbl_Formul.Text = "P=F/A";
+            lbl_Islem1.Text = "/";
+            lbl_FormulOne.Text = "P";
+            lbl_FormulTwo.Text = "F";
+            lbl_FormulThree.Text = "A";
+            nud_Sonuc.Enabled = true;
+            nud_Formul1.Enabled = true;
+            nud_Formul2.Enabled = true;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            reset();
+            Formul = "P=h*d*g";
+            lbl_Formul.Text = "P=h*d*g";
+            lbl_Islem1.Text = "*";
+            lbl_Islem2.Text = "*";
+            lbl_FormulOne.Text = "P";
+            lbl_FormulTwo.Text = "h";
+            lbl_FormulThree.Text = "d";
+            lbl_FormulFour.Text = "g";
+            nud_Sonuc.Enabled = true;
+            nud_Formul1.Enabled = true;
+            nud_Formul2.Enabled = true;
+            nud_Formul3.Enabled = true;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            reset();
+            Formul = "P=G/A";
+            lbl_Formul.Text = "P=G/A";
+            lbl_Islem1.Text = "/";
+            lbl_FormulOne.Text = "P";
+            lbl_FormulTwo.Text = "G";
+            lbl_FormulThree.Text = "A";
+            nud_Sonuc.Enabled = true;
+            nud_Formul1.Enabled = true;
+            nud_Formul2.Enabled = true;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            //λ=v/f
+            reset();
+            Formul = "λ=v/f";
+            lbl_Formul.Text = "λ=v/f";
+            lbl_Islem1.Text = "/";
+            lbl_FormulOne.Text = "λ";
+            lbl_FormulTwo.Text = "v";
+            lbl_FormulThree.Text = "f";
+            nud_Sonuc.Enabled = true;
+            nud_Formul1.Enabled = true;
+            nud_Formul2.Enabled = true;
+        }
+
         private void btn_Hesapla_Click(object sender, EventArgs e)
         {
             int bos = 0;
@@ -314,9 +374,124 @@ namespace FizikHesapApp
                 }
             }
 
+            else if (Formul == "P=F/A")
+            {
+                if (bos != 2)
+                {
+                    lbl_Hata.Text = "En Fazla Bir Değişken Boş Bırakılmalıdır";
+                }
+                else
+                {
+                    lbl_Hata.Text = "";
+                    decimal P = nud_Sonuc.Value;
+                    decimal F = nud_Formul1.Value;
+                    decimal A = nud_Formul2.Value;
 
+                    if (P == 0)
+                    {
+                        nud_Sonuc.Value = F / A;
+                    }
+                    else if (F == 0)
+                    {
+                        nud_Formul1.Value = P * A;
+                    }
+                    else
+                    {
+                        nud_Formul2.Value = F / P;
+                    }
+                }
+            }
+
+            else if (Formul == "P=h*d*g")
+            {
+                if (bos != 3)
+                {
+                    lbl_Hata.Text = "En Fazla Bir Değişken Boş Bırakılmalıdır";
+                }
+                else
+                {
+                    lbl_Hata.Text = "";
+                    decimal P = nud_Sonuc.Value;
+                    decimal h = nud_Formul1.Value;
+                    decimal d = nud_Formul2.Value;
+                    decimal g = nud_Formul3.Value;
+
+                    if (P == 0)
+                    {
+                        nud_Sonuc.Value = h * d * g;
+                    }
+                    else if (h == 0)
+                    {
+                        nud_Formul1.Value = P / (d * g);
+                    }
+                    else if (d == 0)
+                    {
+                        nud_Formul2.Value = P / (g * h);
+                    }
+                    else
+                    {
+                        nud_Formul3.Value = P / (h * d);
+                    }
+                }
+
+            }
+
+            else if (Formul == "P=G/A")
+            {
+                if (bos != 2)
+                {
+                    lbl_Hata.Text = "En Fazla Bir Değişken Boş Bırakılmalıdır";
+                }
+                else
+                {
+                    lbl_Hata.Text = "";
+                    decimal P = nud_Sonuc.Value;
+                    decimal G = nud_Formul1.Value;
+                    decimal A = nud_Formul2.Value;
+
+                    if (P == 0)
+                    {
+                        nud_Sonuc.Value = G / A;
+                    }
+                    else if (G == 0)
+                    {
+                        nud_Formul1.Value = P * A;
+                    }
+                    else
+                    {
+                        nud_Formul2.Value = G / P;
+                    }
+                }
+            }
+
+            else if (Formul == "λ=v/f")
+            {
+                if (bos != 2)
+                {
+                    lbl_Hata.Text = "En Fazla Bir Değişken Boş Bırakılmalıdır";
+                }
+                else
+                {
+                    lbl_Hata.Text = "";
+                    decimal λ = nud_Sonuc.Value;
+                    decimal v = nud_Formul1.Value;
+                    decimal f = nud_Formul2.Value;
+
+                    if (λ == 0)
+                    {
+                        nud_Sonuc.Value = v / f;
+                    }
+                    else if (v == 0)
+                    {
+                        nud_Formul1.Value = λ * f;
+                    }
+                    else
+                    {
+                        nud_Formul2.Value = v / λ;
+                    }
+                }
+            }
         }
-
-
+        
     }
 }

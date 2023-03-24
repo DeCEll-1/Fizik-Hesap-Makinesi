@@ -371,6 +371,7 @@
             this.button11.TabIndex = 0;
             this.button11.Text = "λ=v/f";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // groupBox3
             // 
@@ -392,6 +393,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "P=F/A";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button5
             // 
@@ -401,6 +403,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "P=G/A";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button8
             // 
@@ -410,6 +413,7 @@
             this.button8.TabIndex = 0;
             this.button8.Text = "P=h*d*g";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
